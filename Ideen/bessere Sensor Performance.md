@@ -1,0 +1,6 @@
+- mit gold nano partikeln aktivieren
+- stickstoff atmosphäre
+- andere atmosphören
+- andere grund materialien(papier stoff pflanen) (biosensors-12-00055)
+- essig säure treatment(biosensors-12-00055)
+- kapazität messen stadt widerstand(biosensors-12-00055)

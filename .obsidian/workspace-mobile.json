@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "ceb9826733c5367d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2825f7e251a16874",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cf7a5c2e0824928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Laborbuch/Laborbuch 25.9.2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Laborbuch 25.9.2024"
+            }
+          },
+          {
+            "id": "2f2038cd2be9b369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ideen/bessere Sensor Performance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bessere Sensor Performance"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "efb4e16c06866749",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4db1ea33a4e1f6be",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "40eac794d8e877a1",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "865d5e170125356c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "d542aa6858dcae4d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "28acf3413b3cee58",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b74bdf3a8e6958ae",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "grundkurs-latex.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "53619436703d7424",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "grundkurs-latex.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "369ee0f3677585c3",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "grundkurs-latex.pdf"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2f2038cd2be9b369",
+  "lastOpenFiles": [
+    "Ideen/Simulationd porjekt.md",
+    "Ideen/bessere Sensor Performance.md",
+    "Laborbuch/4.9.2024 und 18.9.2025.md",
+    "Ideen",
+    "Passwörter.md",
+    "Laborbuch/Laborbuch 25.9.2024.md",
+    "Laborbuch/Laborbuch 6.11.2024.md",
+    "Images/20241106_163519.jpg",
+    "Laborbuch/Untitled",
+    "Laborbuch/Laborbuch 2.10.2024.md",
+    "Laborbuch/Laborbuch 23.10.md",
+    "Images/20241023_173500.jpg",
+    "Images",
+    "grundkurs-latex.pdf",
+    "2024-09-24.md",
+    "Laborbuch/Laborbuch.md",
+    "Laborbuch/4.9.2024_18.9.2025",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,2 @@
+Der Wiederstand einer SPur (nach den bisher getzten Parametern) wird gemessen. Nach einer plötzlichen in kontaktbringung mit 1000 bzw 100 ppm von Amoiak in stickstoff. Bei 1000 ppm sind nach etwa 60 s der Widerstand um 0,2% gestiegen. Das scheinbare Plateau der Exponential funktion ist bei etwa 5%.  Bei 100 ppm ist eine entsprechend schwächere reaktion zu erkennen.
+![[20241023_173500.jpg]]
