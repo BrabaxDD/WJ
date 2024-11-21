@@ -10,6 +10,17 @@ for filename in ./gases/*; do
 		mv $(echo "$filename" | awk -F/ '{print $NF}' ) gas 
 		cp ./../../script.py .
 		python script.py
+		mkdir gasdir
+		cd gasdir
+		cp ./../gas .
+		xtb gas > output
+		cd ..
+		mkdir defectdir 
+		cd defectdir 
+		cp ./../defect .
+		xtb defect > output
+		cd ..
+
 		cd ../..
 	done
 done
