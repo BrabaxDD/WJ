@@ -1,0 +1,3 @@
+mkdir gases
+mkdir grapheneDefects
+
