@@ -13,11 +13,20 @@ for filename in ./gases/*; do
 		mkdir gasdir
 		cd gasdir
 		cp ./../gas .
+		echo "\$write
+   json=true
+   output file=properties.out" >> gas
+ 
 		xtb gas > output
 		cd ..
 		mkdir defectdir 
 		cd defectdir 
 		cp ./../defect .
+		echo "\$write
+   json=true
+   output file=properties.out" >> defect
+ 
+
 		xtb defect > output
 		cd ..
 
