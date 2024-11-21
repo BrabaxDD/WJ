@@ -76,7 +76,7 @@
    J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,
    J. Stückrath, T. Rose, and J. Unsleber
    
- * started run on 2024/11/21 at 16:37:21.510     
+ * started run on 2024/11/21 at 16:53:38.397     
 
            -------------------------------------------------
           |                Calculation Setup                |
@@ -151,7 +151,7 @@
   10   -137.3865629 -0.699614E-05  0.734E-03    0.31       1.5  T
   11   -137.3865707 -0.782276E-05  0.142E-03    0.31       8.0  T
   12   -137.3865708 -0.145536E-06  0.530E-04    0.31      21.3  T
-  13   -137.3865709 -0.256629E-07  0.253E-04    0.31      44.8  T
+  13   -137.3865709 -0.256631E-07  0.253E-04    0.31      44.8  T
 
    *** convergence criteria satisfied after 13 iterations ***
 
@@ -177,14 +177,14 @@
                   HL-Gap            0.0113268 Eh            0.3082 eV
              Fermi-level           -0.3240859 Eh           -8.8188 eV
 
- SCC (total)                   0 d,  0 h,  0 min,  3.179 sec
- SCC setup                      ...        0 min,  0.001 sec (  0.028%)
- Dispersion                     ...        0 min,  0.015 sec (  0.483%)
- classical contributions        ...        0 min,  0.001 sec (  0.016%)
- integral evaluation            ...        0 min,  0.026 sec (  0.830%)
- iterations                     ...        0 min,  3.111 sec ( 97.859%)
- molecular gradient             ...        0 min,  0.024 sec (  0.744%)
- printout                       ...        0 min,  0.001 sec (  0.038%)
+ SCC (total)                   0 d,  0 h,  0 min,  1.670 sec
+ SCC setup                      ...        0 min,  0.007 sec (  0.419%)
+ Dispersion                     ...        0 min,  0.029 sec (  1.763%)
+ classical contributions        ...        0 min,  0.000 sec (  0.013%)
+ integral evaluation            ...        0 min,  0.014 sec (  0.864%)
+ iterations                     ...        0 min,  1.588 sec ( 95.091%)
+ molecular gradient             ...        0 min,  0.030 sec (  1.767%)
+ printout                       ...        0 min,  0.001 sec (  0.078%)
 
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          ::                     SUMMARY                     ::
@@ -213,14 +213,14 @@ Property printout bound to 'properties.out'
            -------------------------------------------------
 
 ------------------------------------------------------------------------
- * finished run on 2024/11/21 at 16:37:24.777     
+ * finished run on 2024/11/21 at 16:53:40.192     
 ------------------------------------------------------------------------
  total:
- * wall-time:     0 d,  0 h,  0 min,  3.267 sec
- *  cpu-time:     0 d,  0 h,  1 min, 16.978 sec
- * ratio c/w:    23.564 speedup
+ * wall-time:     0 d,  0 h,  0 min,  1.795 sec
+ *  cpu-time:     0 d,  0 h,  0 min, 42.779 sec
+ * ratio c/w:    23.828 speedup
  SCF:
- * wall-time:     0 d,  0 h,  0 min,  3.180 sec
- *  cpu-time:     0 d,  0 h,  1 min, 14.907 sec
- * ratio c/w:    23.559 speedup
+ * wall-time:     0 d,  0 h,  0 min,  1.671 sec
+ *  cpu-time:     0 d,  0 h,  0 min, 39.961 sec
+ * ratio c/w:    23.915 speedup
 

@@ -76,7 +76,7 @@
    J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,
    J. Stückrath, T. Rose, and J. Unsleber
    
- * started run on 2024/11/21 at 16:37:24.985     
+ * started run on 2024/11/21 at 16:53:42.308     
 
            -------------------------------------------------
           |                Calculation Setup                |
@@ -162,14 +162,14 @@
                   HL-Gap            0.5289808 Eh           14.3943 eV
              Fermi-level           -0.1818991 Eh           -4.9497 eV
 
- SCC (total)                   0 d,  0 h,  0 min,  0.049 sec
- SCC setup                      ...        0 min,  0.003 sec (  5.923%)
- Dispersion                     ...        0 min,  0.012 sec ( 25.426%)
- classical contributions        ...        0 min,  0.009 sec ( 17.611%)
- integral evaluation            ...        0 min,  0.001 sec (  1.181%)
- iterations                     ...        0 min,  0.023 sec ( 47.948%)
- molecular gradient             ...        0 min,  0.001 sec (  1.694%)
- printout                       ...        0 min,  0.000 sec (  0.107%)
+ SCC (total)                   0 d,  0 h,  0 min,  0.020 sec
+ SCC setup                      ...        0 min,  0.002 sec ( 11.784%)
+ Dispersion                     ...        0 min,  0.002 sec (  9.827%)
+ classical contributions        ...        0 min,  0.000 sec (  1.992%)
+ integral evaluation            ...        0 min,  0.001 sec (  2.952%)
+ iterations                     ...        0 min,  0.014 sec ( 69.682%)
+ molecular gradient             ...        0 min,  0.001 sec (  3.279%)
+ printout                       ...        0 min,  0.000 sec (  0.288%)
 
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          ::                     SUMMARY                     ::
@@ -198,14 +198,14 @@ Property printout bound to 'properties.out'
            -------------------------------------------------
 
 ------------------------------------------------------------------------
- * finished run on 2024/11/21 at 16:37:25.085     
+ * finished run on 2024/11/21 at 16:53:42.417     
 ------------------------------------------------------------------------
  total:
- * wall-time:     0 d,  0 h,  0 min,  0.100 sec
- *  cpu-time:     0 d,  0 h,  0 min,  2.357 sec
- * ratio c/w:    23.528 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.110 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  2.487 sec
+ * ratio c/w:    22.706 speedup
  SCF:
- * wall-time:     0 d,  0 h,  0 min,  0.049 sec
- *  cpu-time:     0 d,  0 h,  0 min,  1.133 sec
- * ratio c/w:    23.291 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.020 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.348 sec
+ * ratio c/w:    17.602 speedup
 

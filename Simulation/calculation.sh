@@ -29,6 +29,18 @@ for filename in ./gases/*; do
 
 		xtb defect > output
 		cd ..
+		mkdir interactiondir
+		cd interactiondir 
+		cp ./../interaction .
+		echo "\$write
+   json=true
+   output file=properties.out" >> defect
+ 
+
+		xtb interaction > output
+		cd ..
+
+
 
 		cd ../..
 	done

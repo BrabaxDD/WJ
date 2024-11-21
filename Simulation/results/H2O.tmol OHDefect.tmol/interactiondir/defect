@@ -1,0 +1,3 @@
+$write
+   json=true
+   output file=properties.out

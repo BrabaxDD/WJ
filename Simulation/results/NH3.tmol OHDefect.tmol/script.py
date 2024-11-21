@@ -6,5 +6,6 @@ defect = read("defect")
 print("------------------------------------------------------------------------------------------------------")
 print("calculating: " + dir_path)
 print(gas.get_positions())
-
+interaction = gas + defect
+interaction.write("interaction",format="turbomole")
 
