@@ -1,8 +1,8 @@
 {
    "total energy":         -10.30845204,
-   "HOMO-LUMO gap/eV":           8.45364769,
+   "HOMO-LUMO gap / eV":           8.45364769,
    "electronic energy":         -10.43080288,
-   "dipole": [     0.00006896,     0.00057731,     0.00041544],
+   "dipole / a.u.": [     0.00006896,     0.00057731,     0.00041544],
    "partial charges": [
         0.46434193,
        -0.23222725,
@@ -18,7 +18,7 @@
    "number of molecular orbitals": 12,
    "number of electrons": 16,
    "number of unpaired electrons": 0,
-   "orbital energies/eV": [
+   "orbital energies / eV": [
       -22.06449998,
       -21.67960438,
       -18.09046139,
@@ -44,7 +44,7 @@
         0.00000000,
         0.00000000,
         0.00000000],
-   "program call": "xtb gas",
+   "program call": "/home/olli/anaconda3/bin/xtb gas",
    "method": "GFN2-xTB",
-   "xtb version": "6.5.1 (fef0646)"
+   "xtb version": "6.7.1 (edcfbbe)"
 }

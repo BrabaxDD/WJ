@@ -7,7 +7,7 @@
      |                    University of Bonn                     |     
       -----------------------------------------------------------      
 
-   * xtb version 6.5.1 (fef0646) compiled by 'conda@b96dff2e9fd6' on 2023-01-04
+   * xtb version 6.7.1 (edcfbbe) compiled by 'conda@3ef47c1a292c' on 2024-11-25
 
    xtb is free software: you can redistribute it and/or modify it under
    the terms of the GNU Lesser General Public License as published by
@@ -41,6 +41,10 @@
    * S. Ehlert, M. Stahn, S. Spicher, S. Grimme, J. Chem. Theory Comput.,
      2021, 17, 4250-4261. DOI: 10.1021/acs.jctc.1c00471
    
+   for ddCOSMO and CPCM-X implicit solvation:
+   * M. Stahn, S. Ehlert, S. Grimme, J. Phys. Chem. A,
+     2023, XX, XXXX-XXXX. DOI: 10.1021/acs.jpca.3c04382
+   
    for DFT-D4:
    * E. Caldeweyher, C. Bannwarth and S. Grimme, J. Chem. Phys., 2017,
      147, 034112. DOI: 10.1063/1.4993215
@@ -68,28 +72,40 @@
    * S. Spicher and S. Grimme, J. Chem. Theory Comput., 2021, 17, 1701-1714
      DOI: 10.1021/acs.jctc.0c01306
    
+   for ONIOM refer to:
+   * C. Plett, A. Katbashev, S. Ehlert, S. Grimme, M. Bursch,
+     Phys. Chem. Chem. Phys., 2023, 25, 17860-17868. DOI: 10.1039/D3CP02178E
+   
+   for DIPRO refer to:
+   * J. Kohn, N. Gildemeister, S. Grimme, D. Fazzi, A. Hansen,
+     J. Chem. Phys., 2023, just accepted.
+   
+   for PTB refer to:
+   * S. Grimme, M. Mueller, A. Hansen, J. Chem. Phys., 2023, 158, 124111.
+     DOI: 10.1063/5.0137838
+   
    with help from (in alphabetical order)
    P. Atkinson, C. Bannwarth, F. Bohle, G. Brandenburg, E. Caldeweyher
    M. Checinski, S. Dohm, S. Ehlert, S. Ehrlich, I. Gerasimov, C. Hölzer
-   A. Katbashev, J. Koopman, C. Lavigne, S. Lehtola, F. März, M. Müller,
+   A. Katbashev, J. Kohn, J. Koopman, C. Lavigne, S. Lehtola, F. März, M. Müller,
    F. Musil, H. Neugebauer, J. Pisarek, C. Plett, P. Pracht, F. Pultar,
    J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,
    J. Stückrath, T. Rose, and J. Unsleber
    
- * started run on 2024/11/21 at 16:53:47.834     
+ * started run on 2024/11/28 at 16:27:24.137     
+   ID    Z sym.   atoms
+    1    7 n      1
+    2    1 h      2-4, 63-82
+    3    6 c      5-62
 
            -------------------------------------------------
           |                Calculation Setup                |
            -------------------------------------------------
 
-          program call               : xtb interaction
+          program call               : /home/olli/anaconda3/bin/xtb interaction
           coordinate file            : interaction
-          omp threads                :                    24
+          omp threads                :                    16
 
-   ID    Z sym.   atoms
-    1    7 n      1
-    2    1 h      2-4, 63-82
-    3    6 c      5-62
 
 molecular fragmentation (1/2 indicates fragments):
 111122222222222222222222222222222222222222222222222222222222222222222222
@@ -145,6 +161,8 @@ constraining FC (au)   :  0.0500
           :  -> SCF convergence          0.1000000E-05 Eh   :
           :  -> wf. convergence          0.1000000E-03 e    :
           :  Broyden damping             0.4000000          :
+          :  net charge                          0          :
+          :  unpaired electrons                  0          :
           ...................................................
 
  iter      E             dE          RMSdq      gap      omega  full diag
@@ -161,7 +179,7 @@ constraining FC (au)   :  0.0500
   11   -141.8689982 -0.100686E-04  0.342E-03    0.31       3.2  T
   12   -141.8689994 -0.128904E-05  0.171E-03    0.31       6.5  T
   13   -141.8689999 -0.413599E-06  0.524E-04    0.31      21.1  T
-  14   -141.8689999 -0.245892E-07  0.221E-04    0.31      50.1  T
+  14   -141.8689999 -0.245891E-07  0.221E-04    0.31      50.1  T
 
    *** convergence criteria satisfied after 14 iterations ***
 
@@ -187,14 +205,14 @@ constraining FC (au)   :  0.0500
                   HL-Gap            0.0113258 Eh            0.3082 eV
              Fermi-level           -0.3241550 Eh           -8.8207 eV
 
- SCC (total)                   0 d,  0 h,  0 min,  0.506 sec
- SCC setup                      ...        0 min,  0.007 sec (  1.299%)
- Dispersion                     ...        0 min,  0.004 sec (  0.855%)
- classical contributions        ...        0 min,  0.007 sec (  1.325%)
- integral evaluation            ...        0 min,  0.016 sec (  3.248%)
- iterations                     ...        0 min,  0.427 sec ( 84.425%)
- molecular gradient             ...        0 min,  0.042 sec (  8.240%)
- printout                       ...        0 min,  0.003 sec (  0.590%)
+ SCC (total)                   0 d,  0 h,  0 min,  0.663 sec
+ SCC setup                      ...        0 min,  0.000 sec (  0.074%)
+ Dispersion                     ...        0 min,  0.003 sec (  0.512%)
+ classical contributions        ...        0 min,  0.000 sec (  0.025%)
+ integral evaluation            ...        0 min,  0.010 sec (  1.449%)
+ iterations                     ...        0 min,  0.604 sec ( 90.967%)
+ molecular gradient             ...        0 min,  0.040 sec (  6.038%)
+ printout                       ...        0 min,  0.006 sec (  0.930%)
 
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          ::                     SUMMARY                     ::
@@ -203,7 +221,7 @@ constraining FC (au)   :  0.0500
          :: gradient norm              0.000748843454 Eh/a0 ::
          :: HOMO-LUMO gap              0.308191751583 eV    ::
          ::.................................................::
-         :: SCC energy              -141.868999877370 Eh    ::
+         :: SCC energy              -141.871458543352 Eh    ::
          :: -> isotropic ES            0.016485118596 Eh    ::
          :: -> anisotropic ES          0.009570647771 Eh    ::
          :: -> anisotropic XC          0.062752894070 Eh    ::
@@ -453,14 +471,14 @@ molecular quadrupole (traceless):
            -------------------------------------------------
 
 ------------------------------------------------------------------------
- * finished run on 2024/11/21 at 16:53:48.406     
+ * finished run on 2024/11/28 at 16:27:24.825     
 ------------------------------------------------------------------------
  total:
- * wall-time:     0 d,  0 h,  0 min,  0.572 sec
- *  cpu-time:     0 d,  0 h,  0 min, 13.713 sec
- * ratio c/w:    23.963 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.688 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  1.983 sec
+ * ratio c/w:     2.883 speedup
  SCF:
- * wall-time:     0 d,  0 h,  0 min,  0.507 sec
- *  cpu-time:     0 d,  0 h,  0 min, 12.153 sec
- * ratio c/w:    23.974 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.665 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  1.851 sec
+ * ratio c/w:     2.784 speedup
 
