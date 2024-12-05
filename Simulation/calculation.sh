@@ -1,4 +1,8 @@
 mkdir results
+cd results
+touch results.txt
+cd ..
+python jsoninit.py
 for filename in ./gases/*; do
 	for filenameGraphene in ./grapheneDefects/*; do
 		echo "$(echo "$filename" | awk -F/ '{print $NF}') $(echo "$filenameGraphene" | awk -F/ '{print $NF}' )"
@@ -9,6 +13,7 @@ for filename in ./gases/*; do
 		cp ./../../$filename .
 		mv $(echo "$filename" | awk -F/ '{print $NF}' ) gas 
 		cp ./../../script.py .
+        cp ./../../statistics.py .
 		python script.py
 		mkdir gasdir
 		cd gasdir
@@ -17,7 +22,7 @@ for filename in ./gases/*; do
    json=true
    output file=properties.out" >> gas
  
-		xtb gas > output
+		xtb gas --opt > output
 		cd ..
 		mkdir defectdir 
 		cd defectdir 
@@ -27,7 +32,7 @@ for filename in ./gases/*; do
    output file=properties.out" >> defect
  
 
-		xtb defect > output
+		xtb defect --opt > output
 		cd ..
 		mkdir interactiondir
 		cd interactiondir 
@@ -37,9 +42,9 @@ for filename in ./gases/*; do
    output file=properties.out" >> defect
  
 
-		xtb interaction > output
+		xtb interaction --opt > output
 		cd ..
-
+        python statistics.py
 
 
 		cd ../..
