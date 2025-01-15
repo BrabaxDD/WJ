@@ -39,7 +39,7 @@ for filename in ./gases/*; do
 		cp ./../interaction .
 		echo "\$write
    json=true
-   output file=properties.out" >> defect
+   output file=properties.out" >> interaction
  
 
 		xtb interaction --opt > output

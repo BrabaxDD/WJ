@@ -1,1 +1,12 @@
-{"lucke": [], "transfer": [], "Adsorbtionsenergie": []}
+{"lucke": [], "transfer": [], "Adsorbtionsenergie": []}The Interaction Energy of CO2.tmol Graphene.tmol is: 4.386999998473584e-05 
+The Charge Transfer of CO2.tmol Graphene.tmol is: -0.18336730999999998 
+The Interaction Energy of CO2.tmol OHDefect.tmol is: 4.347999998799423e-05 
+The Charge Transfer of CO2.tmol OHDefect.tmol is: 0.1444962699999999 
+The Interaction Energy of H2O.tmol Graphene.tmol is: -1.1190000009264622e-05 
+The Charge Transfer of H2O.tmol Graphene.tmol is: -0.18359254000000008 
+The Interaction Energy of H2O.tmol OHDefect.tmol is: -6.069999983537855e-06 
+The Charge Transfer of H2O.tmol OHDefect.tmol is: 0.14470840000000007 
+The Interaction Energy of NH3.tmol Graphene.tmol is: 3.463000001602268e-05 
+The Charge Transfer of NH3.tmol Graphene.tmol is: -0.24435800000000002 
+The Interaction Energy of NH3.tmol OHDefect.tmol is: 1.4260000028798459e-05 
+The Charge Transfer of NH3.tmol OHDefect.tmol is: 0.07870246999999969 

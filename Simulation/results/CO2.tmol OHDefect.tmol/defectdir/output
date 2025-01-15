@@ -92,7 +92,7 @@
    J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,
    J. Stückrath, T. Rose, and J. Unsleber
    
- * started run on 2024/12/05 at 16:17:40.935     
+ * started run on 2025/01/15 at 17:23:13.401     
    ID    Z sym.   atoms
     1    6 c      1-22, 24-58
     2    1 h      23, 59-79, 81
@@ -175,7 +175,7 @@
   15   -140.6066785 -0.704766E-05  0.256E-03    0.25       4.3  T
   16   -140.6066783  0.263994E-06  0.235E-03    0.25       4.7  T
   17   -140.6066790 -0.735806E-06  0.656E-04    0.25      16.9  T
-  18   -140.6066790 -0.201249E-07  0.496E-04    0.25      22.4  T
+  18   -140.6066790 -0.201247E-07  0.496E-04    0.25      22.4  T
 
    *** convergence criteria satisfied after 18 iterations ***
 
@@ -201,14 +201,14 @@
                   HL-Gap            0.0092057 Eh            0.2505 eV
              Fermi-level           -0.3294406 Eh           -8.9645 eV
 
- SCC (total)                   0 d,  0 h,  0 min,  0.763 sec
- SCC setup                      ...        0 min,  0.002 sec (  0.263%)
- Dispersion                     ...        0 min,  0.004 sec (  0.573%)
- classical contributions        ...        0 min,  0.001 sec (  0.105%)
- integral evaluation            ...        0 min,  0.011 sec (  1.423%)
- iterations                     ...        0 min,  0.683 sec ( 89.541%)
- molecular gradient             ...        0 min,  0.039 sec (  5.119%)
- printout                       ...        0 min,  0.023 sec (  2.972%)
+ SCC (total)                   0 d,  0 h,  0 min,  0.741 sec
+ SCC setup                      ...        0 min,  0.001 sec (  0.076%)
+ Dispersion                     ...        0 min,  0.005 sec (  0.610%)
+ classical contributions        ...        0 min,  0.000 sec (  0.042%)
+ integral evaluation            ...        0 min,  0.014 sec (  1.927%)
+ iterations                     ...        0 min,  0.660 sec ( 89.049%)
+ molecular gradient             ...        0 min,  0.039 sec (  5.297%)
+ printout                       ...        0 min,  0.022 sec (  2.995%)
 
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          ::                     SUMMARY                     ::
@@ -217,7 +217,7 @@
          :: gradient norm              0.000161968413 Eh/a0 ::
          :: HOMO-LUMO gap              0.250499310714 eV    ::
          ::.................................................::
-         :: SCC energy              -140.608275058742 Eh    ::
+         :: SCC energy              -140.608275058741 Eh    ::
          :: -> isotropic ES            0.035714043053 Eh    ::
          :: -> anisotropic ES          0.004714386646 Eh    ::
          :: -> anisotropic XC          0.061530392606 Eh    ::
@@ -278,11 +278,11 @@ Using Lindh-Hessian (1995)
 
  iter      E             dE          RMSdq      gap      omega  full diag
    1   -140.6066791 -0.140607E+03  0.170E-04    0.25       0.0  T
-   2   -140.6066790  0.971722E-07  0.791E-04    0.25      14.1  T
+   2   -140.6066790  0.971721E-07  0.791E-04    0.25      14.1  T
    3   -140.6066790 -0.782192E-07  0.353E-04    0.25      31.4  T
-     SCC iter.                  ...        0 min,  0.117 sec
-     gradient                   ...        0 min,  0.038 sec
- * total energy  :  -137.9906643 Eh     change       -0.6820954E-08 Eh
+     SCC iter.                  ...        0 min,  0.112 sec
+     gradient                   ...        0 min,  0.039 sec
+ * total energy  :  -137.9906643 Eh     change       -0.6821296E-08 Eh
    gradient norm :     0.0001618 Eh/α   predicted     0.0000000E+00 (-100.00%)
    displ. norm   :     0.0129450 α      lambda       -0.4287884E-07
    maximum displ.:     0.0119135 α      in ANC's #2, #4, #15, ...
@@ -295,15 +295,15 @@ Using Lindh-Hessian (1995)
  total power (kW/mol):        -0.0000179 (step)   -0.0001 (real)
 ------------------------------------------------------------------------
 
- ANCopt (total)                0 d,  0 h,  0 min,  0.236 sec
- optimizer setup                ...        0 min,  0.000 sec (  0.067%)
- model hessian                  ...        0 min,  0.026 sec ( 11.025%)
- ANC generation                 ...        0 min,  0.017 sec (  7.009%)
- coordinate transformation      ...        0 min,  0.000 sec (  0.029%)
- single point calculation       ...        0 min,  0.193 sec ( 81.667%)
- optimization log               ...        0 min,  0.000 sec (  0.100%)
+ ANCopt (total)                0 d,  0 h,  0 min,  0.228 sec
+ optimizer setup                ...        0 min,  0.000 sec (  0.065%)
+ model hessian                  ...        0 min,  0.024 sec ( 10.519%)
+ ANC generation                 ...        0 min,  0.016 sec (  6.974%)
+ coordinate transformation      ...        0 min,  0.000 sec (  0.030%)
+ single point calculation       ...        0 min,  0.187 sec ( 82.195%)
+ optimization log               ...        0 min,  0.000 sec (  0.106%)
  hessian update                 ...        0 min,  0.000 sec (  0.001%)
- rational function              ...        0 min,  0.000 sec (  0.059%)
+ rational function              ...        0 min,  0.000 sec (  0.061%)
 
 ================
  final structure:
@@ -507,14 +507,14 @@ C2-C10-C3-C12=188.37          C2-C10-C3-H69=  4.79          C11-C10-C3-C12=  1.2
                   HL-Gap            0.0092045 Eh            0.2505 eV
              Fermi-level           -0.3294410 Eh           -8.9645 eV
 
- SCC (total)                   0 d,  0 h,  0 min,  0.191 sec
- SCC setup                      ...        0 min,  0.000 sec (  0.236%)
- Dispersion                     ...        0 min,  0.001 sec (  0.727%)
- classical contributions        ...        0 min,  0.000 sec (  0.080%)
- integral evaluation            ...        0 min,  0.008 sec (  4.459%)
- iterations                     ...        0 min,  0.118 sec ( 61.649%)
- molecular gradient             ...        0 min,  0.040 sec ( 20.906%)
- printout                       ...        0 min,  0.023 sec ( 11.926%)
+ SCC (total)                   0 d,  0 h,  0 min,  0.184 sec
+ SCC setup                      ...        0 min,  0.000 sec (  0.232%)
+ Dispersion                     ...        0 min,  0.001 sec (  0.790%)
+ classical contributions        ...        0 min,  0.000 sec (  0.082%)
+ integral evaluation            ...        0 min,  0.008 sec (  4.084%)
+ iterations                     ...        0 min,  0.113 sec ( 61.398%)
+ molecular gradient             ...        0 min,  0.040 sec ( 21.711%)
+ printout                       ...        0 min,  0.022 sec ( 11.689%)
 
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          ::                     SUMMARY                     ::
@@ -546,18 +546,18 @@ optimized geometry written to: xtbopt.coord
            -------------------------------------------------
 
 ------------------------------------------------------------------------
- * finished run on 2024/12/05 at 16:17:42.160     
+ * finished run on 2025/01/15 at 17:23:14.582     
 ------------------------------------------------------------------------
  total:
- * wall-time:     0 d,  0 h,  0 min,  1.225 sec
- *  cpu-time:     0 d,  0 h,  0 min,  3.940 sec
- * ratio c/w:     3.216 speedup
+ * wall-time:     0 d,  0 h,  0 min,  1.181 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  3.806 sec
+ * ratio c/w:     3.223 speedup
  SCF:
- * wall-time:     0 d,  0 h,  0 min,  0.764 sec
- *  cpu-time:     0 d,  0 h,  0 min,  1.990 sec
- * ratio c/w:     2.604 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.743 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  1.986 sec
+ * ratio c/w:     2.673 speedup
  ANC optimizer:
- * wall-time:     0 d,  0 h,  0 min,  0.428 sec
- *  cpu-time:     0 d,  0 h,  0 min,  1.696 sec
- * ratio c/w:     3.961 speedup
+ * wall-time:     0 d,  0 h,  0 min,  0.413 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  1.668 sec
+ * ratio c/w:     4.035 speedup
 
