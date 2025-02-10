@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laborbuch/Laborbuch 25.9.2024.md",
+                "file": "Laborbuch/4.2.2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laborbuch 25.9.2024"
+              "title": "4.2.2025"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "bessere Sensor Performance"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +50,8 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabetical",
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -110,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "grundkurs-latex.pdf",
+            "file": "Ideen/Simulationd porjekt.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -162,15 +162,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f2038cd2be9b369",
+  "active": "7cf7a5c2e0824928",
   "lastOpenFiles": [
-    "Ideen/Simulationd porjekt.md",
+    "Images/20250204_172644.jpg",
+    "Laborbuch/4.2.2025.md",
+    "Laborbuch/22. 1.2025.md",
     "Ideen/bessere Sensor Performance.md",
+    "Images/KontaktGraphenBasis.jpg",
+    "Laborbuch/Laborbuch 6.11.2024.md",
+    "Laborbuch/Laborbuch 25.9.2024.md",
+    "Laborbuch/Laborbuch 27.11..md",
+    "Ideen/Simulationd porjekt.md",
+    "Laborbuch/Laborbuch 4.12.2024.md",
+    "Images/20241127_162652.jpg",
     "Laborbuch/4.9.2024 und 18.9.2025.md",
     "Ideen",
     "Passwörter.md",
-    "Laborbuch/Laborbuch 25.9.2024.md",
-    "Laborbuch/Laborbuch 6.11.2024.md",
     "Images/20241106_163519.jpg",
     "Laborbuch/Untitled",
     "Laborbuch/Laborbuch 2.10.2024.md",
